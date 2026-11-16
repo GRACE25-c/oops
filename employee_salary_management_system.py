@@ -4,7 +4,7 @@ class  Employee(ABC):
         self. __basic_salary=basic_salary
         self.name=name
         self.work_mode=work_mode
-        
+        # random
     @property
     def basic_salary(self):
         return   self.__basic_salary
